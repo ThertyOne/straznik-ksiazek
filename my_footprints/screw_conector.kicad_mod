@@ -1,0 +1,179 @@
+(footprint "screw_conector"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.5 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "62af4322-b2fd-4a51-9036-c4a16d564271")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "screw_conector"
+		(at -0.7 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "37eb59cd-3630-47f6-9884-866ecd242743")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d02f1d56-7da9-4d3f-829a-59386ee48459")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a269fcdb-2aaf-4fb4-b39e-c1b76f3beb25")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37428ea3-48b6-4ec1-996a-eca683318449")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.8 4.1)
+		(end 7.7 4.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2b521150-609f-4a1f-939f-14c3210e089e")
+	)
+	(fp_line
+		(start -2.6 0)
+		(end -2.6 -4.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aa28ad62-2055-4bb9-9e21-0a00d43a57f6")
+	)
+	(fp_line
+		(start -2.6 0)
+		(end -2.6 4.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5ef1ad60-21a7-4e86-8e3e-35bf36bc9458")
+	)
+	(fp_line
+		(start 0 0)
+		(end 3.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "88687a3b-a4fd-4a44-a7e0-919c3c6c01b6")
+	)
+	(fp_line
+		(start 7.7 -4.1)
+		(end -2.6 -4.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3022974f-470e-40f9-b084-a9d9fa7555ec")
+	)
+	(fp_line
+		(start 7.7 0)
+		(end 7.7 -4.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5dd574da-bb63-4a73-96f3-aaf139a38fb9")
+	)
+	(fp_line
+		(start 7.7 4.1)
+		(end 7.7 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6fd4e492-fdf7-41c3-ac82-353466d59406")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d0cc1589-fa9d-4162-8198-2752ea9617f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d66fb116-d2c1-40eb-b3b4-6260a96cbe1f")
+	)
+	(pad "2" thru_hole circle
+		(at 3.5 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7526e69c-89bb-4f60-bba5-2066de3ba98e")
+	)
+	(model "C:/Users/eleme/Downloads/2445P Screw Terminal Block- 2 Pin, 3.5mm Pitch, Side Entry.STEP"
+		(offset
+			(xyz 1.7 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

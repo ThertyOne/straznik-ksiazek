@@ -1,0 +1,120 @@
+(footprint "cap_1206"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.45 -3.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a011abae-27ae-4ed3-9645-ff66fa9adfd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "cap_1206"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3b074b6d-f886-4b1c-aad4-c6179175b13d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db2d03eb-ba9e-4915-839b-b46197d486f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bec63b2-db0e-47ce-8839-3b39efed45a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d8d8c1a-d56e-40af-b808-ec09b12848cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.85 -2.6)
+		(end 5 0.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "7a7fbc57-61a4-469c-8050-bfb19e95ad74")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b7e59a55-3c8d-4e55-bc5d-65399dd08b7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 4 -1.25)
+		(size 1.5 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "00b5bbc9-7c55-4219-8c17-ab147308c562")
+	)
+	(pad "2" smd roundrect
+		(at 0 -1.25)
+		(size 1.5 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "be01d737-bcb0-403c-bb1e-d144956ba8eb")
+	)
+	(model "C:/Users/eleme/Downloads/cap_1206.stp"
+		(offset
+			(xyz -0.25 2.4 0)
+		)
+		(scale
+			(xyz 1.4 1.4 1.4)
+		)
+		(rotate
+			(xyz 90 180 90)
+		)
+	)
+)

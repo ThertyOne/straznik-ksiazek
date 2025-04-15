@@ -1,0 +1,120 @@
+(footprint "cap_0603"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7f9719bf-8d6d-44e5-ad5e-750a36a575e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "cap_0603"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bba894c0-979b-43b8-980b-e7ab50bd9def")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5788896-5e55-4926-af5e-27966adb9705")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82c688c2-657f-426c-af2f-3153edb4c3ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "230b396a-4c8e-43e6-9c7e-13b8efe59515")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.38 -0.44)
+		(end 1.86 0.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ec817819-c47d-481f-8de0-1e6661a5d60b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fdc18509-fc4e-4d25-a115-1b31025a5f6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.01 0.07)
+		(size 0.6 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "78cd7ff5-9e81-45c4-a51e-11437ccc057f")
+	)
+	(pad "2" smd roundrect
+		(at 1.49 0.07)
+		(size 0.6 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "63fb25f4-ab38-4150-8b1d-a0ea66d516cf")
+	)
+	(model "C:/Users/eleme/Downloads/cap_1206.stp"
+		(offset
+			(xyz -0.1 0.31 0)
+		)
+		(scale
+			(xyz 0.5 0.5001 0.5)
+		)
+		(rotate
+			(xyz 90 180 90)
+		)
+	)
+)
